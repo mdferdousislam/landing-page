@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,600;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.text-whait {
+    color: #ffff;
+}
+
+.font-weight-6 {
+    font-weight: 600;
+}
+
+.font-weight-5 {
+    font-weight: inherit;
+}
+
+.font-weight-4 {
+    font-weight: 400;
+}
+
+.circal-color {
+    color: #3c4761;
+}
+
+.portfolioTopBtnBgClr {
+    background: #ebc985;
+
+}
+
+.blackTextColor {
+    color: #393939;
+}
+
+/*==========================================================
+--------------------header-part-start-----------------------
+===========================================================*/
+
+.manubar {
+
+    /*    background-color: #87509c;*/
+    min-height: 595px;
+    padding: 50px 0;
+
+}
+
+.manubar.collapse ul li.nav-item {
+    background: #643a79;
+}
+
+li.nav-item.active {
+    background: #643a79;
+}
+
+li.nav-item:hover {
+    background: #643a79;
+}
+
+li.nav-item {
+    /* margin-left: 25px; */
+    padding: 0 25px;
+    border-radius: 10px;
+}
+
+
+/*header-text---------------*/
+
+.header-text h1 {
+    font-weight: 600;
+}
+
+/*header-btn-----*/
+button.btn.button {
+    background-color: #eb7d4b;
+    color: #ffff;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/*==========================================================
+--------------------header-part-end-----------------------
+===========================================================*/
+
+/*==========================================================
+--------------------servisePart-start-----------------------
+===========================================================*/
+.services {
+    background-color: rgba(23, 194, 164, 0.9);
+    padding: 80px 0;
+    min-height: 750px;
+}
+
+.services .servicesHeader h1 {
+    font-weight: 600;
+    color: #ffff;
+    letter-spacing: 2px;
+
+}
+
+.services .servicesHeader h1 span {
+
+    border-bottom: 4px solid #14a58c;
+    margin-right: 10px;
+    padding-left: 18px;
+
+}
+
+p.py-4.font-weight-6 {
+    word-spacing: 2px;
+
+    letter-spacing: 1px;
+}
+
+/*==========================================================
+--------------------servisePart-end-----------------------
+===========================================================*/
+
+/*==========================================================
+--------------------meetPart-start-----------------------
+===========================================================*/
+.meetPart {
+    background-color: #e7f1f8;
+    padding: 80px 0;
+    min-height: 910px;
+}
+
+.meetPart .meetButtonPart .textmeetPart span {
+    color: #30bae7;
+}
+
+.meetPart .meetButtonPart .imgPart img {
+
+    width: 150px;
+}
+
+.meetPart .meetButtonPart .meetIconPart ul {
+    margin-left: 30px;
+}
+
+.meetPart .meetButtonPart .meetIconPart ul li {
+    list-style-type: none;
+    float: left;
+    margin-left: 15px;
+
+}
+
+.meetPart .meetButtonPart .meetIconPart ul li a {
+    font-size: 20px;
+
+}
+
+.meetPart .meetButtonPart .meetIconPart ul li a i {
+
+    background-color: #bdd1df;
+    color: #ffff;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+
+
+/*==========================================================
+--------------------meetPart-end-----------------------
+===========================================================*/
+
+
+
+/*==========================================================
+--------------------skillsPart-strt-----------------------
+===========================================================*/
+.skills {
+    padding: 80px 0;
+    min-height: 650px;
+}
+
+h2.font-weight-6 {
+    letter-spacing: 2px;
+}
+
+h2.font-weight-6:after {
+    content: "";
+    display: block;
+    height: 5px;
+    background: #dfe8ed;
+    width: 85px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+svg .radial-progress circle {}
+
+svg.radial-progress text {
+    fill: #393939;
+
+}
+
+svg.radial-progress.web-desing circle {
+    stroke: #30bae7;
+    stroke-width: 5;
+}
+
+svg.radial-progress.html circle {
+    stroke: #d74680;
+    stroke-width: 5;
+}
+
+svg.radial-progress.graphic circle {
+    stroke: #15c7a8;
+    stroke-width: 5;
+}
+
+svg.radial-progress.ui circle {
+    stroke: #eb7d4b;
+    stroke-width: 5;
+}
+
+/*==========================================================
+--------------------skillsPart-end-----------------------
+===========================================================*/
+/*==========================================================
+--------------------PORTFOLIOPart-START-----------------------
+===========================================================*/
+.protfolio {
+    background-color: #ffdd99;
+    padding: 80px 0;
+}
+
+.protfolio .protfolio-top h1:after {
+    content: "";
+    display: block;
+    height: 5px;
+    background: #e5c37f;
+    width: 85px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.protfolio .portfolioImg img {
+    height: 300px;
+}
+
+.protfolio .portfolioImg h4 {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 2rem;
+    color: #393939;
+}
+
+.protfolio .mixitup-control-active {
+    background: #ffff;
+}
+
+/*==========================================================
+--------------------PORTFOLIOPart-end-----------------------
+===========================================================*/
+
+/*==========================================================
+--------------------peoplePart-start-----------------------
+===========================================================*/
+.people {
+    background-color: #d74680;
+    padding: 80px 0;
+    background-size: cover;
+}
+
+.people .peopleTopPart h1 {
+    letter-spacing: 2px;
+}
+
+.people .peopleTopPart h1:after {
+    content: "";
+    display: block;
+    height: 5px;
+    background: #b73c6d;
+    width: 85px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.people .peopleButtomImg img {
+    width: 90px;
+    height: 90px;
+    /* height: 90px; */
+    background: #787878;
+    border-radius: 50%;
+}
+
+.peopleButtomImg {
+    position: absolute;
+    /* margin-left: 100px; */
+}
+
+.people .peopleButtomText {
+    /* float: left; */
+    position: relative;
+    margin-left: 145px;
+}
+
+.people .peopleButtomText p {
+    font-style: italic;
+    color: #fff;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.people .peopleButtomText h3 {
+    text-transform: uppercase;
+    color: #ffff;
+    font-size: 24px;
+}
+
+.people .peopleButtomText a {
+    color: #ffdd99;
+    /* list-style-type: none; */
+    text-decoration: none
+}
+
+/*==========================================================
+--------------------peoplePart-end-----------------------
+===========================================================*/
+
+
+/*==========================================================
+--------------------massagePart-start-----------------------
+===========================================================*/
+.massage {
+    background-color: #3c5499;
+    padding: 80px 0;
+    background-size: cover;
+}
+
+.massage .massageTop h1 {
+    letter-spacing: 2px;
+}
+
+.massage .massageTop h1:after {
+    content: "";
+    display: block;
+    height: 5px;
+    background: #273a71;
+    width: 85px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.massage input {
+
+    PADDING: 10px;
+    /* size: auto; */
+    width: 100%;
+    background: #273a71;
+    border: 1px solid ##273a71;
+    border: none;
+    color: #ffff;
+    border-radius: 5px;
+}
+
+.massage form ::placeholder {
+    color: #ffff;
+    opacity: 1;
+}
+
+.massage textarea {
+    PADDING: 10px;
+    /* size: auto; */
+    width: 100%;
+    background: #273a71;
+    border: 1px solid ##273a71;
+    border: none;
+    color: #ffff;
+    border-radius: 5px;
+}
+
+.massage button {
+    background-color: #30bae7;
+    font-weight: 600;
+    color: #ffff;
+    padding: 20px 60px;
+    font-size: 16px;
+}
+
+/*==========================================================
+--------------------massagePart-end-----------------------
+===========================================================*/
+
+/*==========================================================
+--------------------footerPart-start-----------------------
+===========================================================*/
+.footer {
+    background-color: #344b8e;
+    background-size: cover;
+    border-top: 2px solid #3c5499;
+
+}
+
+.footer .footerList ul {
+    padding: 50px 0;
+}
+
+.footer .footerList ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 78px;
+}
+
+.footer .footerList ul li:last-child{
+    margin-right: 0px;
+}
+
+
+
+.footer .footerList ul li a{
+       text-decoration: none;
+    color: #ffff;
+    font-size: 24px;
+}
+
+.footer .footerList ul li a:hover{
+    color: #30bae7;
+}
+/*==========================================================
+--------------------footerPart-end-----------------------
+===========================================================*/
